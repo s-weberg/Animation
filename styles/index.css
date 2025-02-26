@@ -74,9 +74,9 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 18px;
+    font-size: 20px;
     color: #444343;
-    margin: 20px;
+    margin: 20px 0px 10px 0px;
 }
 
 .time {
@@ -84,10 +84,21 @@
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 18px;
+    font-size: 40px;
     color: #444343;
     text-transform: uppercase;
-    margin: 20px;
+    margin: 10px 0px 20px 0px;
+    width: 100px;
+    text-align: center;
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+
+.time:hover {  
+    width: 300px;
+    background: gold;
+    border: solid 2px purple;
+    color: purple;
 }
 
 .crown { 
