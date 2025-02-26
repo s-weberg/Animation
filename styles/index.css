@@ -1,0 +1,204 @@
+.header {
+    display: flex;
+    justify-self: center;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 72px;
+    color: #444343;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.card-top {
+    width: 900px;
+    height: 1000px;
+    background-color: rgb(240, 236, 231);
+    border: 5px solid #eb0a94;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.h2-title {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    color: #444343;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.h1-title {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 120px;
+    color: #eb0a94;
+}
+
+.h1-title:hover {
+    text-transform: uppercase;
+    color: gold;
+    transition: 0.2s ease-in-out;
+}
+
+.info {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 28px;
+    color: #444343;
+    text-transform: uppercase;
+}
+
+.crown { 
+   fill: gold;
+   stroke: purple;
+   stroke-width: 2%;
+}
+
+.container-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card { 
+    max-width: 210px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid gold;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    display: inline-block;
+    position: relative;
+}
+
+.card-second {
+    max-width: 210px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid gold;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    display: inline-block;
+    position: relative;
+}
+
+.card-image {
+    width: 210px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.card-image-second {
+    width: 210px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.first-img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    animation: mymove1 5s infinite;
+}
+
+.second-img {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    animation: mymove2 5s infinite;
+}
+
+@keyframes mymove1 {
+     0%   {top: 0px; left: 0px;}
+     25%  {top: 0px; left: 100px;}
+     50%  {top: 100px; left: 100px;}
+     75%  {top: 100px; left: 0px;}
+     100% {top: 0px; left: 0px;}
+}
+@keyframes mymove2 {
+    100%   {top: 0px; left: 0px;}
+    75%  {top: 0px; left: 100px;}
+    50%  {top: 100px; left: 100px;}
+    25%  {top: 100px; left: 0px;}
+    0% {top: 0px; left: 0px;}
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+    color: #444343;
+    margin: 20px;
+    
+   
+}
+
+.contact:hover  {
+    transition: 0.9s linear;
+    background-color: purple;
+    color: gold;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+
+.btn {
+    width: 250px;
+    height: 80px;
+    margin: 20px;
+    background-color: gold;
+    border-color: purple;
+    color: #444343;
+    text-transform: uppercase;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 52px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: purple;
+    color: gold;
+}
+
+
+    
