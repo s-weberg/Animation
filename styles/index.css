@@ -19,8 +19,8 @@
 }
 
 .card-top {
-    width: 900px;
-    height: 1000px;
+    max-width: 750px;
+    width: 100%;
     background-color: rgb(240, 236, 231);
     border: 5px solid #eb0a94;
     border-radius: 10px;
@@ -67,6 +67,27 @@
     font-size: 28px;
     color: #444343;
     text-transform: uppercase;
+}
+
+.text {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #444343;
+    margin: 20px;
+}
+
+.time {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    color: #444343;
+    text-transform: uppercase;
+    margin: 20px;
 }
 
 .crown { 
